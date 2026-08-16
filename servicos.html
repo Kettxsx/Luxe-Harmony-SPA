@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Harmony</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>LUXE<br>HARMONY</h1>
+        <span>BELEZA & BEM-ESTAR</span>
+    </div>
+
+    <nav>
+        <a href="#maquiagem">Serviços</a>
+        <a href="#combos">Combos</a>
+        <a href="#combo-personalizado">Monte seu Combo</a>
+        <a href="#contato">Fale Conosco</a>
+    </nav>
+
+    <a href="cadastro.html" class="btn-topo">
+        Agendar
+    </a>
+
+</header>
+
+
+<!-- ==================== MAQUIAGEM ==================== -->
+
+<section class="categoria" id="maquiagem">
+
+    <div class="titulo-categoria">
+        <div>
+            <h2>MAQUIAGEM</h2>
+            <p>Realce sua beleza com sofisticação</p>
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="Imagens/maquiagem-social.jpg" alt="Maquiagem Social">
+
+            <div class="card-info">
+                <h3>Maquiagem Social</h3>
+                <p>Make perfeita para qualquer ocasião especial.</p>
+                <span>R$ 160,00</span>
+
+                <button onclick="abrirModal('Maquiagem Social',160)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/maquiagem-noiva.jpg" alt="Maquiagem Noiva">
+
+            <div class="card-info">
+                <h3>Maquiagem Noiva</h3>
+                <p>Make sofisticada para o seu grande dia.</p>
+                <span>R$ 280,00</span>
+
+                <button onclick="abrirModal('Maquiagem Noiva',280)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/maquiagem-festas.jpg" alt="Maquiagem Festa">
+
+            <div class="card-info">
+                <h3>Maquiagem Festa</h3>
+                <p>Visual elegante para festas e eventos.</p>
+                <span>R$ 180,00</span>
+
+                <button onclick="abrirModal('Maquiagem Festa',180)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/maquiagem-casual.jpg" alt="Maquiagem Casual">
+
+            <div class="card-info">
+                <h3>Maquiagem Casual</h3>
+                <p>Beleza leve e natural para o dia a dia.</p>
+                <span>R$ 120,00</span>
+
+                <button onclick="abrirModal('Maquiagem Casual',120)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== CABELOS ==================== -->
+
+<section class="categoria">
+
+    <div class="titulo-categoria">
+        <div>
+            <h2>CABELOS</h2>
+            <p>Cuidado e transformação para seus cabelos</p>
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="Imagens/cabelo-escova.jpg" alt="Escova">
+
+            <div class="card-info">
+                <h3>Escova</h3>
+                <p>Cabelo alinhado e com brilho intenso.</p>
+                <span>R$ 90,00</span>
+
+                <button onclick="abrirModal('Escova',90)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/cabelo-hidratação.jpg" alt="Hidratação">
+
+            <div class="card-info">
+                <h3>Hidratação</h3>
+                <p>Tratamento profundo para cabelos saudáveis.</p>
+                <span>R$ 150,00</span>
+
+                <button onclick="abrirModal('Hidratação',150)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/cabelo-penteado.jpg" alt="Penteado">
+
+            <div class="card-info">
+                <h3>Penteado</h3>
+                <p>Penteados sofisticados para qualquer ocasião.</p>
+                <span>R$ 220,00</span>
+
+                <button onclick="abrirModal('Penteado',220)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/cabelo-pintura.jpg" alt="Pintura">
+
+            <div class="card-info">
+                <h3>Pintura</h3>
+                <p>Transforme o visual com cores modernas.</p>
+                <span>R$ 320,00</span>
+
+                <button onclick="abrirModal('Pintura',320)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== UNHAS ==================== -->
+
+<section class="categoria">
+
+    <div class="titulo-categoria">
+        <div>
+            <h2>UNHAS</h2>
+            <p>Unhas lindas, saudáveis e bem cuidadas</p>
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="Imagens/unha-manicure.jpg" alt="Manicure">
+
+            <div class="card-info">
+                <h3>Manicure</h3>
+                <p>Cuidado completo para suas mãos.</p>
+                <span>R$ 60,00</span>
+
+                <button onclick="abrirModal('Manicure',60)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/unha-pédecure.jpg" alt="Pedicure">
+
+            <div class="card-info">
+                <h3>Pedicure</h3>
+                <p>Cuidado completo para seus pés.</p>
+                <span>R$ 70,00</span>
+
+                <button onclick="abrirModal('Pedicure',70)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/unha-alongamento.jpg" alt="Alongamento">
+
+            <div class="card-info">
+                <h3>Alongamento</h3>
+                <p>Unhas alongadas e sofisticadas.</p>
+                <span>R$ 180,00</span>
+
+                <button onclick="abrirModal('Alongamento',180)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/unha-nail art.jpg" alt="Nail Art">
+
+            <div class="card-info">
+                <h3>Nail Art</h3>
+                <p>Decorações modernas e personalizadas.</p>
+                <span>R$ 120,00</span>
+
+                <button onclick="abrirModal('Nail Art',120)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== MASSAGENS ==================== -->
+
+<section class="categoria">
+
+    <div class="titulo-categoria">
+        <div>
+            <h2>MASSAGENS</h2>
+            <p>Relaxe e cuide do seu bem-estar</p>
+        </div>
+    </div>
+
+    <div class="cards massagens-grid">
+
+        <div class="card">
+            <img src="Imagens/massagem-massagem tailandesa.jpg" alt="Massagem Tailandesa">
+
+            <div class="card-info">
+                <h3>Massagem Tailandesa</h3>
+                <p>Relaxamento profundo e equilíbrio corporal.</p>
+                <span>R$ 240,00</span>
+
+                <button onclick="abrirModal('Massagem Tailandesa',240)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/massagem-massagem com pedras quentes.jpg" alt="Pedras Quentes">
+
+            <div class="card-info">
+                <h3>Pedras Quentes</h3>
+                <p>Alívio de tensões e sensação de paz.</p>
+                <span>R$ 260,00</span>
+
+                <button onclick="abrirModal('Pedras Quentes',260)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="Imagens/massagem-massagem terapeutica.jpg" alt="Massagem Terapêutica">
+
+            <div class="card-info">
+                <h3>Massagem Terapêutica</h3>
+                <p>Cuidados terapêuticos para o corpo.</p>
+                <span>R$ 200,00</span>
+
+                <button onclick="abrirModal('Massagem Terapêutica',200)">
+                    Agendar
+                </button>
+            </div>
+        </div>
+
+
+        <!-- COMBO LUXURY -->
+
+        <div class="card premium" id="combos">
+
+            <div class="premium-topo">
+                PREMIUM
+            </div>
+
+            <div class="premium-info">
+
+                <h3>Combo Luxury</h3>
+
+                <p>
+                    Todos os serviços do Luxe Harmony.
+                </p>
+
+                <ul>
+                    <li>Maquiagem</li>
+                    <li>Cabelo</li>
+                    <li>Unhas</li>
+                    <li>Massagem</li>
+                    <li>Depilação</li>
+                </ul>
+
+                <span>R$ 799,00</span>
+
+                <button onclick="abrirModal('Combo Luxury',799)">
+                    Agendar Agora
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== COMBOS ESPECIAIS ==================== -->
+
+<section class="combos">
+
+    <h2>COMBOS ESPECIAIS</h2>
+
+    <div class="mini-combos">
+
+        <div class="mini-card">
+
+            <img src="Imagens/combo-combo noiva.jpg" alt="Combo Noiva">
+
+            <div>
+
+                <h4>Combo Noiva</h4>
+
+                <p>
+                    Penteado + Manicure e Pedicure +
+                    Maquiagem premium + Massagem relaxante
+                </p>
+
+                <span>R$ 620,00</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="mini-card">
+
+            <img src="Imagens/combo-combo princesa.jpg" alt="Combo Princesa">
+
+            <div>
+
+                <h4>Combo Princesa</h4>
+
+                <p>
+                    Escova + Depilação + Unha + Massagem
+                </p>
+
+                <span>R$ 450,00</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== MONTE SEU COMBO ==================== -->
+
+<section class="combo-personalizado" id="combo-personalizado">
+
+    <h2>Monte seu Combo</h2>
+
+    <div class="checkboxes">
+
+        <label>
+            <input
+                type="checkbox"
+                value="160"
+                onchange="calcularCombo()">
+            Maquiagem
+        </label>
+
+
+        <label>
+            <input
+                type="checkbox"
+                value="90"
+                onchange="calcularCombo()">
+            Cabelo
+        </label>
+
+
+        <label>
+            <input
+                type="checkbox"
+                value="60"
+                onchange="calcularCombo()">
+            Unhas
+        </label>
+
+
+        <label>
+            <input
+                type="checkbox"
+                value="240"
+                onchange="calcularCombo()">
+            Massagem
+        </label>
+
+
+        <label>
+            <input
+                type="checkbox"
+                value="240"
+                onchange="calcularCombo()">
+            Depilação
+        </label>
+
+    </div>
+
+
+    <div class="resultado-combo">
+
+        <h3>
+            Total: R$
+            <span id="total">0</span>
+        </h3>
+
+        <button onclick="abrirCombo()">
+            Agendar Combo
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== CONTATO ==================== -->
+
+<section class="contato" id="contato">
+
+    <h2>Fale Conosco</h2>
+
+    <div class="contato-box">
+
+        <p>Email: luxeharmony@email.com</p>
+        <p>Telefone: (62) 99999-9999</p>
+        <p>WhatsApp: (62) 98888-8888</p>
+
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Seu nome">
+
+            <input
+                type="email"
+                placeholder="Seu email">
+
+            <textarea
+                placeholder="Digite sua mensagem">
+            </textarea>
+
+            <button type="submit">
+                Enviar Mensagem
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== MODAL DE AGENDAMENTO ==================== -->
+
+<div class="modal" id="modal">
+
+    <div class="modal-content">
+
+        <span
+            class="fechar"
+            onclick="fecharModal()">
+            &times;
+        </span>
+
+
+        <h2>Finalizar Agendamento</h2>
+
+
+        <!-- SERVIÇO ESCOLHIDO -->
+
+        <h3 id="servicoEscolhido"></h3>
+
+
+        <!-- VALOR -->
+
+        <h3 id="valorTotal"></h3>
+
+        <p id="sinal"></p>
+
+        <p id="restante"></p>
+
+
+        <!-- DATA -->
+
+        <label for="dataAgendamento">
+            Escolha a data:
+        </label>
+
+        <input
+            type="date"
+            id="dataAgendamento">
+
+
+        <!-- HORÁRIO -->
+
+        <label for="horarioAgendamento">
+            Escolha o horário:
+        </label>
+
+        <select id="horarioAgendamento">
+
+            <option value="">
+                Escolha uma data primeiro
+            </option>
+
+        </select>
+
+
+        <!-- PAGAMENTO -->
+
+        <h4>
+            Forma de Pagamento
+        </h4>
+
+        <select
+            id="formaPagamento"
+            class="pagamento-select">
+
+            <option value="">
+                Selecione uma opção
+            </option>
+
+            <option value="PIX">
+                PIX
+            </option>
+
+            <option value="Cartão de Crédito">
+                Cartão de Crédito
+            </option>
+
+            <option value="Cartão de Débito">
+                Cartão de Débito
+            </option>
+
+            <option value="Presencial">
+                Pagar Presencialmente
+            </option>
+
+        </select>
+
+
+        <!-- FINALIZAR -->
+
+        <button
+            class="btn-pagar"
+            onclick="finalizarAgendamento()">
+
+            Finalizar Agendamento
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
